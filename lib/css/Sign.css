@@ -38,7 +38,7 @@ body{
 form{
     margin-top: 50px;
     transition: all 4s ease-in-out;
-    color: #fff;
+    color: red;
 }
 .form-control{
     width: 600px;
@@ -46,7 +46,7 @@ form{
     border:none;
     outline: none;
     border-bottom:1px solid black;
-    color: white;
+    color: red;
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -66,6 +66,10 @@ form.submit{
 form.submit:hover{
     background-color: #f44336;
     cursor: pointer;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
 }
 
 h3{
