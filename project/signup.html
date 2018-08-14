@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="sign/style.css" rel="stylesheet">
+<head>
+    <title>M.A.R.S-Sign Up</title>
+    
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDOenWaYwxSGPf8O-wT7_rJYI2AxM4Us4c",
+    authDomain: "mars-7f392.firebaseapp.com",
+    databaseURL: "https://mars-7f392.firebaseio.com",
+    projectId: "mars-7f392",
+    storageBucket: "",
+    messagingSenderId: "646119851688"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script src="signup.js" defer></script>
+</head>
+<body> 
+    <div style="display:flex;">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a>About</a>
+                <ul>
+                    <li><a href="ourMission.html">Our Mission</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                </ul>
+            </li>
+            <li><a>Things to do</a>
+                <ul>
+                        <li><a href="cleanUp.html">Clean Up</a></li>
+                </ul>
+            </li>
+            <li><a>News</a>
+                <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                </ul>
+                <li><a>Join</a>
+                    <ul>
+                        <li><a href="signup.html">Join Us</a></li>
+                    </ul>
+                </li>
+            </li>
+            </ul>
+            <h3 class='fade-in'>Join Now!:</h3>
+            </div>
+    <br>
+    <div class="contact-title">
+        <h1 class="fade-in">Join M.A.R.S</h1>
+        <h2 class="fade-in">Follow the wave</h2>
+    </div>
+
+    <div class="contact-form">
+
+        <form id= "contact-form" methods="post" actions="">
+           <input id="submitionName" name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+
+            <input id="submitionEmail" name="email" type="email" class="form-control" placeholder="Your Email" required><br
+            >
+            <input id="submitionAge" name="age" type="text" class="form-control" placeholder="Your Age" required><br
+            >
+            <input id="submitionNumber" name="Number" type="text" class="form-control" placeholder="Your Phone Number" required><br
+            >
+
+            <textarea id="submitionMessage" name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+            <input id="submitButton" type="submit" class="form-control submit" value="Send Message">
+            </form>
+    </div>
+</body>
+</html>
