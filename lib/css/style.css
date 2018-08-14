@@ -41,6 +41,18 @@ p{
     animation-timing-function: linear;
 
 }
+.logo{
+    position: absolute;
+    top:350px;
+    left:0;
+    animation-name: swim;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+
+}
 /*Key Frames*/
 @keyframes drive{
     from{ transform:translateX(-200px)}

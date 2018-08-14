@@ -17,11 +17,11 @@ body{
     background-size:cover;
     font-family: Ariel;
     color:white;
-    margin: 0px;
-    padding:0px;
+    margin: 0;
+    padding:0;
     text-align: center;
     background-position: center;
-    font-family: sans-serif;
+  
 }
 .contact-title{
     color:black;

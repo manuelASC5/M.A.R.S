@@ -58,3 +58,39 @@ ul li ul li{
 ul li:hover ul li{
     display: block;
 }
+#Partners{
+    display: 
+    inline-flex;
+}
+.Photo{
+    
+}
+#one{
+    display: flex;
+}
+#two{
+    display: flex;
+}
+#Travis{
+margin: 10px;
+height: 15vw;
+border: solid
+4px black;
+}
+#Manny{
+    margin:10px;
+    height: 15vw;
+    border: solid
+    4px black;
+}
+p{
+    color: black;
+    font-size:  30px;
+    
+}
+p1{
+    margin: 10px;
+    color: black;
+    font-size:  30px;
+}
+                
