@@ -53,7 +53,7 @@ p{
 
 
 body{
-    background: url("Photos/Under-The-Sea.jpg") no-repeat;
+    background: url("../../Photos/Under-The-Sea.jpg") no-repeat;
     background-size:cover;
     font-family: Ariel;
     color: white;
