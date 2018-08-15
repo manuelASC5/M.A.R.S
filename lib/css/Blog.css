@@ -86,11 +86,13 @@ border: solid
 p{
     color: black;
     font-size:  30px;
+    border: 10px
     
 }
 p1{
     margin: 10px;
     color: black;
     font-size:  30px;
+    border: 10px
 }
                 
