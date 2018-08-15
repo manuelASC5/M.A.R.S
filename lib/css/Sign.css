@@ -38,7 +38,7 @@ body{
 form{
     margin-top: 50px;
     transition: all 4s ease-in-out;
-    color: red;
+    color: black;
 }
 .form-control{
     width: 600px;
@@ -46,7 +46,7 @@ form{
     border:none;
     outline: none;
     border-bottom:1px solid black;
-    color: red;
+    color: black;
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -68,8 +68,9 @@ form.submit:hover{
     cursor: pointer;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: red;
+    color: black;
     opacity: 1; /* Firefox */
+    
 }
 
 h3{
@@ -77,14 +78,14 @@ h3{
     color: white;
     font-style:  unset; 
     font-size: 45px;
-    margin: 0px;
+    margin: 0;
     position: absolute;
     right: 20px;
 }
 
 ul{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 ul li {
