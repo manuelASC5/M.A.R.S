@@ -76,7 +76,7 @@ p{
 :root {
     --primaryDark: #36151E;
     --primaryLight: #EDEBD7;
-    --accent: #E3B23C;
+    --accent: rgb(208, 241, 20);
     --alternate: #593F62;
     --addedPadding: 20px;
 }
@@ -109,6 +109,8 @@ input,
 }
 
 h1 {
+    margin: 70px;
+    right:250px;
     font-size: 45px;
     color: var(--accent);
     text-align: center;
