@@ -114,4 +114,24 @@ ul li:hover ul li{
 }
 
 /*Added code*/
+@media(max-width: 1030px) {
+    .card-container{
+        flex-direction: column;
+        align-items: center;    
+    }
 
+    footer{
+        flex: 1 0 auto;
+    }
+}
+
+@media(max-width: 530px){
+    .card{
+        width: 80%;
+    }
+}
+
+.card img{
+    width: 80%;
+    height: initial;
+}
